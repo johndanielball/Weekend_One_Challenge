@@ -1,0 +1,44 @@
+<DOCTYPE html>
+<html>
+  <head>
+  	<title>Weekend one challenge</title>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  	<script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    	<div>
+			<form id="employeeForm">
+				<label for="empWholeName">Employee First and Last Name:</label>
+				<input type="text" id="empWholeName" name="empWholeName"/>
+				</br>
+				<label for="empID">Employee ID Number:</label>
+				<input type="text" id="empID" name="empID"/>
+				</br>
+				<label for="empJobTitle">Employee Job Title: </label>
+				<input type="text" id="empJobTitle" name="empJobTitle"/>
+				</br>
+				<label for="empSalary">Employee Salary: </label>
+				<input type="text" id="empSalary" name="empSalary"/>
+				</br>
+				<input type="submit" value="Submit"/>
+			</form>
+		</div>
+		<div id="empRecords">
+			<table>
+					<tr>
+						<th>First &amp; Last Name</th>
+						<th>EIN</th>
+						<th>Job Title</th>
+						<th>Salary</th>
+					</tr>
+
+					<tr id="total">
+						<td></td>
+						<td></td>
+						<td>Total</td>
+						<td></td>
+					</tr>
+			</table>
+		</div>
+</body>
+</html>
