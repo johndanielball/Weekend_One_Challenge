@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(#b3d9ff, #e5ffe5);
+}
+
+label {
+    color: #000066;
+}
+
+.submitButton {
+	color: #000066;
+}
+
+#empID {
+	margin-left: 57px;
+}
+
+#empJobTitle {
+	
+}

@@ -1,9 +1,5 @@
 $("document").ready(function() {
-
-
-	
-
-	$("#employeeForm").on("submit", function(event) {
+$("#employeeForm").on("submit", function(event) {
 		event.preventDefault();
 
 		var values = {};
